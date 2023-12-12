@@ -2,57 +2,57 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Form</title>
 </head>
 
 <body>
-    <form method="post" action="/process.php">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required /><br /><br>
-        <label for="tel">Phone</label>
-        <input type="tel" id="tel" name="tel" required /><br /><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required /><br /><br>
-        <fieldset>
-            <legend>Which taxi do you require?</legend>
-            <input type="radio" name="taxi" value="car" /> Car<br /><br>
-            <input type="radio" name="taxi" value="van" /> Van<br /><br>
-            <input type="radio" name="taxi" value="tuktuk" /> Tuk Tuk<br /><br>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Extras</legend>
-            <input type="checkbox" name="extras" value="baby" /> Baby Seat<br /><br>
-            <input type="checkbox" name="extras" value="wheelchair" /> Wheelchair Access<br /><br>
-            <input type="checkbox" name="extras" value="tip" /> Stock Tip<br /><br>
-        </fieldset>
-        <br>
-        <label for="time">Pick Date/Time</label>
-        <input type="datetime-local" id="time" name="time" required /><br /><br>
-        <label for="pickup_place">Pickup Place</label>
-        <select id="pickup_place" name="pickup_place">
-            <option value="" selected>Select One</option>
-            <option value="office">Taxi Office</option>
-            <option value="town_hall">Town Hall</option>
-            <option value="telepathy">We'll Guess!</option>
-        </select>
-        <br><br>
-        <label for="dropoff_place">Dropoff Place</label>
-        <input type="text" id="dropoff_place" name="dropoff_place" required list="destinations" /><br />
-        <datalist id="destinations">
-            <option value="Airport"></option>
-            <option value="Beach"></option>
-            <option value="Fred Flinstone's House"></option>
-        </datalist>
-        <br>
-        <label for="comments">Special Instructions</label>
-        <textarea name="comments" id="comments" maxlength="500"></textarea>
-        <br><br>
-        <input type="submit" value="Submit Booking">
-    </form>
+	<form method="post" action="/process.php">
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" required /><br /><br>
+		<label for="tel">Phone</label>
+		<input type="tel" id="tel" name="tel" required /><br /><br>
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" required /><br /><br>
+		<fieldset>
+			<legend>Which taxi do you require?</legend>
+			<input type="radio" name="taxi" value="car" /> Car<br /><br>
+			<input type="radio" name="taxi" value="van" /> Van<br /><br>
+			<input type="radio" name="taxi" value="tuktuk" /> Tuk Tuk<br /><br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Extras</legend>
+			<input type="checkbox" name="extras" value="baby" /> Baby Seat<br /><br>
+			<input type="checkbox" name="extras" value="wheelchair" /> Wheelchair Access<br /><br>
+			<input type="checkbox" name="extras" value="tip" /> Stock Tip<br /><br>
+		</fieldset>
+		<br>
+		<label for="time">Pick Date/Time</label>
+		<input type="datetime-local" id="time" name="time" required /><br /><br>
+		<label for="pickup_place">Pickup Place</label>
+		<select id="pickup_place" name="pickup_place">
+			<option value="" selected>Select One</option>
+			<option value="office">Taxi Office</option>
+			<option value="town_hall">Town Hall</option>
+			<option value="telepathy">We'll Guess!</option>
+		</select>
+		<br><br>
+		<label for="dropoff_place">Dropoff Place</label>
+		<input type="text" id="dropoff_place" name="dropoff_place" required list="destinations" /><br />
+		<datalist id="destinations">
+			<option value="Airport"></option>
+			<option value="Beach"></option>
+			<option value="Fred Flinstone's House"></option>
+		</datalist>
+		<br>
+		<label for="comments">Special Instructions</label>
+		<textarea name="comments" id="comments" maxlength="500"></textarea>
+		<br><br>
+		<input type="submit" value="Submit Booking">
+	</form>
 </body>
 
 </html>
