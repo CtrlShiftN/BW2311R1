@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Research Survey</title>
+    <style>
+        section:hover {
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <aside id="sidebar"></aside>
+        <div class="wrapper">
+            <h2>Market Research Survey</h2>
+            <small>Please take a few moments to complete this satisfaction survey.</small>
+            <hr>
+            <section id="age">
+                <label for="age">What is your age range?</label> <br>
+                <select name="age" id="age">
+                    <option value="18-24">18-24</option>
+                    <option value="25-34">25-34</option>
+                    <option value="35-50">35-50</option>
+                    <option value="50+">50+</option>
+                </select>
+            </section>
+            <!-- TODO: Change all the following blocks into sections -->
+            <label for="anual-income">What is your yearly income range?</label> <br>
+            <select name="anual-income" id="anual-income">
+                <option value="0-25k">$0-$25,000</option>
+                <option value="0-25k">$0-$25,000</option>
+                <option value="0-25k">$0-$25,000</option>
+                <option value="0-25k">$0-$25,000</option>
+                <option value="0-25k">$0-$25,000</option>
+            </select>
+            <br>
+            <label for="gender">Gender Identity</label> <br>
+            <input type="radio" name="gender" value="male" checked> Male <br>
+            <input type="radio" name="gender" value="female"> Female <br>
+            <input type="radio" name="gender" value="nonbinary"> Nonbinary <br>
+            <input type="radio" name="gender" value="other"> Other <br>
+            <input type="text" name="gender">
+            <br>
+            <label for="recent-products">Which of the following products have your purchased in the last 2 months.
+                Please check all that apply.</label> <br>
+            <input type="checkbox" name="recent-product" value="product-1"> Product 1 <br>
+            <input type="checkbox" name="recent-product" value="product-2"> Product 2 <br>
+            <input type="checkbox" name="recent-product" value="product-3"> Product 3 <br>
+            <br>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

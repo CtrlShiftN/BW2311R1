@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        .text-warning {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <aside id="sidebar"></aside>
+        <div class="container">
+            <h2>Order Form</h2>
+            <form action="process.php" method="post">
+                <p><label for="goods">What would you like to buy? </label></p>
+                <select name="goods" id="goods">
+                    <option value="A" selected>A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+                <p><label for="amount">How many would you like to order?</label></p>
+                <input type="radio" name="amount" value="1" checked> 1 - $10 <br>
+                <input type="radio" name="amount" value="2"> 2 - $20 <br>
+                <input type="radio" name="amount" value="3"> 3 - $25 <br>
+                <p><label for="name">Name <sup class="text-warning">*</sup></label></p>
+                <input type="text" name="first-name" placeholder="John" required>
+                <input type="text" name="last-name" placeholder="Wick" required> <br>
+                <p><label for="email">Email</label></p>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" size="40">
+                <p><label for="phone">Phone Number</label></p>
+                <input type="tel" name="tel01" size="6"> - <input type="tel" name="tel02" size="6"> - <input type="tel"
+                    name="tel03" size="6"> <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
