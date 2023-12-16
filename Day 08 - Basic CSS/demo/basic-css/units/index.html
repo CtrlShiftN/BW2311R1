@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example using CSS units</title>
+    <style>
+        body {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #f5f5f5;
+        }
+
+        .box {
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            font-size: 24px;
+            line-height: 1.2;
+        }
+
+        .box-2 {
+            width: 40vw;
+            height: 30vh;
+            margin: 5vw;
+            padding: 2vw;
+            border: 2px solid blue;
+            font-size: 3vmin;
+            line-height: 1.5;
+        }
+
+        .circle {
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            background-color: green;
+            border-radius: 50%;
+        }
+
+        .circle-2 {
+            width: 10em;
+            height: 10em;
+            margin: 20px;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid purple;
+            margin: 20px;
+        }
+
+        .triangle-2 {
+            width: 0;
+            height: 0;
+            border-left: 10vmin solid transparent;
+            border-right: 10vmin solid transparent;
+            border-bottom: 20vmin solid orange;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">This is a box using pixel units.</div>
+
+        <div class="box-2">This is a box using viewport units.</div>
+
+        <div class="circle"></div>
+
+        <div class="circle-2"></div>
+
+        <div class="triangle"></div>
+
+        <div class="triangle-2"></div>
+    </div>
+</body>
+
+</html>

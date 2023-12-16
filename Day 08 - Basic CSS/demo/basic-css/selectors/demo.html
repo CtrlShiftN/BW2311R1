@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Selectors</title>
+    <style>
+        /* Type Selector */
+        p {
+            color: blue;
+        }
+
+        /* Class Selector */
+        .warning {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* ID Selector */
+        #special {
+            color: green;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            background-color: yellow;
+        }
+
+        /* Universal Selector */
+        * {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        /* Pseudo-class Selector */
+        a:hover {
+            background-color: pink;
+        }
+
+        /* Pseudo-element Selector */
+        p::first-letter {
+            font-size: 2em;
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selectors</h1>
+    <p>Selectors are used to style elements in HTML.</p>
+    <p class="warning">Warning: This is a warning message.</p>
+    <p id="special">This paragraph has a special ID.</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="#">Link</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et erat erat. Sed quis varius quam, vel molestie
+        sapien. Sed tempor sapien non risus vehicula euismod. Fusce vel neque aliquet, consequat augue quis, bibendum
+        orci. Etiam finibus euismod elit sit amet vehicula. Ut porttitor rutrum nisi, vel bibendum velit ullamcorper
+        quis.</p>
+    <p>Suspendisse nec augue sed leo semper tristique. Donec nec sapien vitae sem gravida sollicitudin vel eu eros.
+        Maecenas at quam ut libero vestibulum tempus. Donec tincidunt metus vitae ipsum iaculis laoreet. Nullam
+        sollicitudin vel sem at auctor. Nulla congue mauris vel nulla vestibulum, eu iaculis felis laoreet.</p>
+</body>
+
+</html>

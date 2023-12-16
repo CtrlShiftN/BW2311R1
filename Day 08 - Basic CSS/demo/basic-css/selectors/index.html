@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator Selector Demo</title>
+    <style>
+        /* Descendant selector */
+        nav li {
+            color: red;
+        }
+
+        /* Child selector */
+        nav>ul {
+            background-color: lightblue;
+        }
+
+        /* Adjacent sibling selector */
+        h2+p {
+            font-style: italic;
+        }
+
+        /* General sibling selector */
+        h3~p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <h2>Title</h2>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+    <h3>Subtitle</h3>
+    <p>Paragraph 4</p>
+    <p>Paragraph 5</p>
+    <p>Paragraph 6</p>
+</body>
+
+</html>
