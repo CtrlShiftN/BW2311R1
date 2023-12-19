@@ -1,0 +1,45 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar-dark {
+    background-color: #333333;
+    color: #c1c8c8;
+    width: 100%;
+}
+
+.navbar-menu {
+    list-style-type: none;
+}
+
+.navbar-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #c1c8c8;
+}
+.pt-5 {
+    padding-top: 3rem;
+}
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.bg-dark {
+    background-color: #333333;
+}
+.text-white {
+    color: white;
+}
+.p-3 {
+    padding: 1rem;
+}
+.text-center {
+    text-align: center;
+}

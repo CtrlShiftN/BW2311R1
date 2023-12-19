@@ -1,0 +1,12 @@
+.container {
+    width: 20rem;
+    padding: 30px 50px;
+    border: 50px solid #52991c;
+}
+.container .main-content {
+    color: #52991c;
+    background-color: #c5c5db;
+    padding: 5px;
+    text-align: center;
+    font-size: 3rem;
+}

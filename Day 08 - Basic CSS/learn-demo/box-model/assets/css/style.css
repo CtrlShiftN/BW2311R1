@@ -1,0 +1,48 @@
+/* Box Model 01 */
+.single-box {
+    padding: 35px;
+    margin: 25px;
+    width: 200px;
+    background-color: lightseagreen;
+    border: 20px dashed indianred;
+}
+/* Box Model 02 */
+.circle {
+    /* border: 1px solid black; */
+    box-shadow: inset indianred 0 0 20px;
+    border-radius: 50%;
+    width: 75px;
+    padding: 35px;
+    /* background: radial-gradient(circle, white, indianred); */
+}
+.circle .rect {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    padding: 50px 25px;
+    box-shadow: inset seagreen 0 0 20px;
+}
+.shape {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+/* Box Model 03 */
+.rect-outside {
+    border: 5px solid black;
+    padding: 32px 30px;
+    display: inline-block;
+    border-radius: 6%;
+}
+.rect-left {
+    border: 5px solid #806fe7;
+}
+.rect-right {
+    border: 5px solid #7b1c18;
+    margin-left: -9px;
+}
+.rect-left,
+.rect-right {
+    padding: 30px 70px;
+    display: inline;
+    border-radius: 30%;
+}

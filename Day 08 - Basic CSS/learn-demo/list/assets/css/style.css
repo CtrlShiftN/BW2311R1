@@ -1,0 +1,8 @@
+.drink-list {
+    background-color: aqua;
+    list-style-image: url('assets/web/media/images/sun.png');
+}
+.drink-list li {
+    background-color: blueviolet;
+    padding: 10px;
+}
